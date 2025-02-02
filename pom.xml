@@ -136,8 +136,6 @@
                         </execution>
                     </executions>
                     <configuration>
-                        <storyType>html</storyType>                         l
-                        </storyReport>
                     </configuration>
                 </plugin>
 
