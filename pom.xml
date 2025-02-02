@@ -79,7 +79,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.4.1</version> <!-- O una versión más reciente -->
+                <version>3.4.1</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
             </plugin>
             <!-- CODE COVERAGE -->
             <plugin>
